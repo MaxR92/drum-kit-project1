@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.9962185557816877) 0%, rgba(255,255,255,0.9962185557816877) 50%, rgba(0,0,0,1) 100%);  
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    width: 14vw;
+    height: 10vh;
+    padding: 1rem;
+}
+
+img {
+    width: 80%;
+    height: 100%;
+}
+
+header, footer {
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
